@@ -176,14 +176,38 @@
 # }
 
 # 65. Create a dictionary where the keys are words in the english language, and the values are the lengths of the words.
-# words = {
-#     "hello": 4,
-#     "how": 3,
-#     "when": 4,
-#     "also": 4
-# }
+# words = ["hello", "how", "when", "also"]
+# d = {}
+# for word in words:
+#     d[word] = len(word)  
+# print(d)    
+
+# print(words) ----------------not correct need to get correct solution from Richard
+    
+
 
 # 66. Data Structures Challenge
 # A Musician has a name, nationality, and gender. A Musician can play in any number of bands. A Musician can play multiple instruments. For each instrument they have a competency level between 1 and 100.
 # Create a data structure that stores the details of each musician along with the bands and instruments.
 # It should be possible to get the details of any musician by name, so use a dictionary to store the musician details.
+
+# musicians = {
+#     "John":{"name": "John",
+#             "nationality": "English",
+#             "gender": "male",
+#             "bands": ["Rolling Stones", "Beattles"],
+#             "instruments": {"guitar": 75, "saxophone": 50,}
+#         }
+#     "Mary":{"name": "Mary",
+#             "nationality": "Irish",
+#             "gender": "female",
+#             "bands": ["Spice Girls", "Girls Aloud"],
+#             "instruments": {"guitar": 75, "violin": 50,}
+#         }
+#     "Tony":{"name": "Tony",
+#             "nationality": "Australian",
+#             "gender": "male",
+#             "bands": ["Backstreet Boys", "Five"],
+#             "instruments": {"base guitar": 75, "piano": 50,}
+#         }
+# }
